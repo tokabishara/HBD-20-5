@@ -1,0 +1,659 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  visibility: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.container div.six {
+  top: 10vh;
+  z-index: 1;
+}
+
+.container div.seven,
+.container div.eight {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.container > div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+}
+
+.one {
+  font-size: 4.5rem;
+}
+
+.one > img {
+  vertical-align: middle;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.two {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.three {
+  font-size: 3rem;
+}
+
+.four .text-box {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.text-box p {
+  margin: 0;
+  text-align: left;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  background-color: rgb(21, 161, 237);
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.five p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.idea-3 strong {
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.five .idea-5 {
+  font-size: 4rem;
+}
+
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
+  display: inline-block;
+}
+
+.idea-6 span {
+  font-size: 15rem;
+}
+
+.six {
+  position: relative;
+}
+
+/* .six img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+} */
+
+.baloons img {
+  display: inline-block;
+  position: absolute;
+}
+
+.baloons img:nth-child(even) {
+  left: -10%;
+}
+
+.baloons img:nth-child(odd) {
+  right: -10%;
+}
+
+.baloons img:nth-child(3n + 0) {
+  left: 30%;
+}
+
+.eight svg {
+  width: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.eight svg:nth-child(1) {
+  top: 7vh;
+  left: 5vw;
+  fill: #bd6ecf;
+}
+
+.eight svg:nth-child(2) {
+  top: 23vh;
+  left: 35vw;
+  fill: #7dd175;
+}
+
+.eight svg:nth-child(3) {
+  top: 33vh;
+  left: 23vw;
+  fill: #349d8b;
+}
+
+.eight svg:nth-child(4) {
+  top: 43vh;
+  left: 57vw;
+  fill: #347a9d;
+}
+
+.eight svg:nth-child(5) {
+  top: 68vh;
+  left: 7vw;
+  fill: #c66053;
+}
+
+.eight svg:nth-child(6) {
+  top: 42vh;
+  left: 77vw;
+  fill: #bfaa40;
+}
+
+.eight svg:nth-child(7) {
+  top: 68vh;
+  left: 83vw;
+  fill: #e3bae8;
+}
+
+.eight svg:nth-child(8) {
+  top: 86vh;
+  left: 37vw;
+  fill: #8762cb;
+}
+
+.eight svg:nth-child(9) {
+  top: 94vh;
+  left: 87vw;
+  fill: #9a90da;
+}
+
+.wish-hbd {
+  font-size: 3em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.wish h5 {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 10px 0 0;
+}
+
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#replay {
+  z-index: 3;
+  cursor: pointer;
+}
+.cont {
+  position: relative;
+  margin-top: 35%;
+  margin-left: 0%;
+  margin-bottom: -20%;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+ .hat {
+  width: 18%;
+  position: absolute;
+  left: 42%;
+  top: -20vh;
+  /* transform: rotate(20deg); */
+} 
+
+/* .cont  img{
+
+} */
+.lydia-dp0{
+  /* width: 100px; */
+  height: 400px;
+  position: relative;
+  left: 10%;
+  top: -10%;
+  /* background-color: red; */
+  border: none;
+}
+
+.lydia-dp11{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(20deg);
+}
+.lydia-dp22{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(-20deg);
+}
+.lydia-dp33{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(15deg);
+}
+
+.lydia-dp1{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(-15deg);
+}
+.lydia-dp2{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(10deg);
+}
+.lydia-dp3{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(-10deg);
+}
+
+.lydia-dp4{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  transform: rotate(5deg);
+}
+
+.lydia-dp5{
+  width: 35%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  /* opacity: 50%; */
+}
+
+.cc{
+  transform: translate(-30%);
+}
+.hat {
+  top: -25vh;
+}  
+.lydia-dp0{
+  top: 1vh;
+} 
+.lydia-dp1{
+  top: 1vh;
+} 
+.lydia-dp11{
+  top: 1vh;
+} 
+.lydia-dp22{
+  top: 1vh;
+} 
+.lydia-dp33{
+  top: 1vh;
+} 
+.lydia-dp2{
+  top: 1vh;
+} 
+.lydia-dp3{
+  top: 1vh;
+} 
+.lydia-dp4{
+  top: 1vh;
+} 
+.lydia-dp5{
+  top: 1vh;
+} 
+.wish{
+  position: relative;
+  top: 2vh;
+}
+
+
+
+ @media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -38px;
+  }
+
+  .idea-5 span {
+    display: block;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .wish-hbd {
+    font-size: 2.2em;
+  }
+
+  .wish h5 {
+    font-size: 1.4rem;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+  .hat {
+    top: 11vh;
+  } 
+  .lydia-dp0{
+    top: 23vh;
+  } 
+  .lydia-dp1{
+    top: 23vh;
+  } 
+  .lydia-dp11{
+    top: 23vh;
+  } 
+  .lydia-dp22{
+    top: 23vh;
+  } 
+  .lydia-dp33{
+    top: 23vh;
+  } 
+  .lydia-dp2{
+    top: 23vh;
+  } 
+  .lydia-dp3{
+    top: 23vh;
+  } 
+  .lydia-dp4{
+    top: 23vh;
+  } 
+  .lydia-dp5{
+    top: 23vh;
+  } 
+  .wish{
+    position: relative;
+    top: -9vh;
+  }
+} 
+
+
+
+ /* @media screen and (min-width: 413px) {
+  .hat {
+    top: 12vh;
+  } 
+}   */
+/* @media screen and (max-width: 390px) {
+  .hat {
+     top: -2vh;
+  } 
+} */
+/*@media screen and (max-width: 340px) {
+  .hat {
+    top: -1.5vh;
+  } 
+}
+@media screen and (max-width: 310px) {
+  .hat {
+    top: -1vh;
+  } 
+}
+@media screen and (max-width: 280px) {
+  .hat {
+    top: -0.5vh;
+  } 
+}
+@media screen and (max-width: 265px) {
+  .hat {
+    top: -0.0vh;
+  } 
+}
+@media screen and (min-width: 960px) {
+  .hat {
+    top: -17vh;
+  } 
+} */
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
+  .hat {
+    top: -15vh;
+  }  
+  .lydia-dp0{
+    top: 11vh;
+  } 
+  .lydia-dp1{
+    top: 11vh;
+  } 
+  .lydia-dp2{
+    top: 11vh;
+  } 
+  .lydia-dp3{
+    top: 11vh;
+  } 
+  .lydia-dp4{
+    top: 11vh;
+  } 
+  .lydia-dp5{
+    top: 11vh;
+  } 
+}
+.hat {
+  top: -15vh;
+}  
+.lydia-dp0{
+  top: 11vh;
+} 
+.lydia-dp1{
+  top: 11vh;
+} 
+.lydia-dp2{
+  top: 11vh;
+} 
+.lydia-dp3{
+  top: 11vh;
+} 
+.lydia-dp4{
+  top: 11vh;
+} 
+.lydia-dp5{
+  top: 11vh;
+}  */
+/* @media screen and (max-width: 430px) {
+  .hat {
+    top: 35vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (max-width: 390px) {
+  .hat {
+    top: 36vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (max-width: 340px) {
+  .hat {
+    top: 38vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (max-width: 310px) {
+  .hat {
+    top: 39vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (max-width: 280px) {
+  .hat {
+    top: 40vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (max-width: 265px) {
+  .hat {
+    top: 40vh;
+  }  
+  .lydia-dp0{
+    top: 49vh;
+  } 
+  .lydia-dp1{
+    top: 49vh;
+  } 
+  .lydia-dp2{
+    top: 49vh;
+  } 
+  .lydia-dp3{
+    top: 49vh;
+  } 
+  .lydia-dp4{
+    top: 49vh;
+  } 
+  .lydia-dp5{
+    top: 49vh;
+  } 
+}
+@media screen and (min-width: 960px) {
+  .hat {
+    top: -17vh;
+  } 
+} */
